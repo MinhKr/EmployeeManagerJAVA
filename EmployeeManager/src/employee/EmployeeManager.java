@@ -1,11 +1,10 @@
 package employee;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 
 public class EmployeeManager {
-    Collection<Employee> employees = new ArrayList<>();
+    ArrayList<Employee> employees = new ArrayList<>();
 
     public void addEmployee(Employee employee) {
         employees.add(employee);

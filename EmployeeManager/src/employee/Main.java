@@ -18,17 +18,16 @@ public class Main{
     public static void main(String[] args){
         EmployeeManager manager = new EmployeeManager();
         
-        manager.addEmployee(new Employee(1, "Minh", 20, "IT", "IT001", 1.5));
-        manager.addEmployee(new Employee(2, "Quang", 32, "BA", "BA001", 1.3));
-        manager.addEmployee(new Employee(3, "Minh", 20, "IT", "IT001", 1.5));
-        manager.addEmployee(new Employee(4, "Quang", 32, "BA", "BA001", 1.3));
-        manager.addEmployee(new Employee(5, "Minh", 20, "IT", "IT001", 1.5));
-        manager.addEmployee(new Employee(6, "Quang", 32, "BA", "BA001", 1.3));
-        manager.addEmployee(new Employee(7, "Minh", 20, "IT", "IT001", 1.5));
-        manager.addEmployee(new Employee(8, "Quang", 32, "BA", "BA001", 1.3));
-        manager.addEmployee(new Employee(9, "Minh", 20, "IT", "IT001", 1.5));
-        manager.addEmployee(new Employee(10, "Quang", 32, "BA", "BA001", 1.3));
-
+        manager.addEmployee(new Employee(1, "Minh", 20, "IT", "IT001", 2000));
+        manager.addEmployee(new Employee(2, "Quang", 32, "BA", "BA001", 3000));
+        manager.addEmployee(new Employee(3, "Duy", 20, "IT", "IT002", 2000));
+        manager.addEmployee(new Employee(4, "Hiếu", 32, "BA", "BA002", 3000));
+        manager.addEmployee(new Employee(5, "An", 20, "IT", "IT003", 4000));
+        manager.addEmployee(new Employee(6, "Khánh", 32, "BA", "BA003", 5000));
+        manager.addEmployee(new Employee(7, "Nhật", 20, "IT", "IT005", 7000));
+        manager.addEmployee(new Employee(8, "Kiên", 32, "BA", "BA004", 7000));
+        manager.addEmployee(new Employee(9, "Hạnh", 20, "IT", "IT006", 7000));
+        manager.addEmployee(new Employee(10, "Sơn", 32, "BA", "BA007", 8000));
   
         do{
             System.out.println("1.Insert Employee");
